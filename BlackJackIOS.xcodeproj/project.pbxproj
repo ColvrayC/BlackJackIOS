@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9109E4F21CE5221500DF95AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109E4F11CE5221500DF95AC /* AppDelegate.swift */; };
+		9109E4F41CE5221500DF95AC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9109E4F31CE5221500DF95AC /* GameScene.sks */; };
+		9109E4F61CE5221500DF95AC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109E4F51CE5221500DF95AC /* GameScene.swift */; };
+		9109E4F81CE5221500DF95AC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109E4F71CE5221500DF95AC /* GameViewController.swift */; };
+		9109E4FB1CE5221500DF95AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9109E4F91CE5221500DF95AC /* Main.storyboard */; };
+		9109E4FD1CE5221500DF95AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9109E4FC1CE5221500DF95AC /* Assets.xcassets */; };
+		9109E5001CE5221500DF95AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9109E4FE1CE5221500DF95AC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9109E4EE1CE5221500DF95AC /* BlackJackIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackJackIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9109E4F11CE5221500DF95AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9109E4F31CE5221500DF95AC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9109E4F51CE5221500DF95AC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9109E4F71CE5221500DF95AC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9109E4FA1CE5221500DF95AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9109E4FC1CE5221500DF95AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9109E4FF1CE5221500DF95AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9109E5011CE5221500DF95AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9109E4EB1CE5221500DF95AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9109E4E51CE5221500DF95AC = {
+			isa = PBXGroup;
+			children = (
+				9109E4F01CE5221500DF95AC /* BlackJackIOS */,
+				9109E4EF1CE5221500DF95AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9109E4EF1CE5221500DF95AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9109E4EE1CE5221500DF95AC /* BlackJackIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9109E4F01CE5221500DF95AC /* BlackJackIOS */ = {
+			isa = PBXGroup;
+			children = (
+				9109E4F11CE5221500DF95AC /* AppDelegate.swift */,
+				9109E4F31CE5221500DF95AC /* GameScene.sks */,
+				9109E4F51CE5221500DF95AC /* GameScene.swift */,
+				9109E4F71CE5221500DF95AC /* GameViewController.swift */,
+				9109E4F91CE5221500DF95AC /* Main.storyboard */,
+				9109E4FC1CE5221500DF95AC /* Assets.xcassets */,
+				9109E4FE1CE5221500DF95AC /* LaunchScreen.storyboard */,
+				9109E5011CE5221500DF95AC /* Info.plist */,
+			);
+			path = BlackJackIOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9109E4ED1CE5221500DF95AC /* BlackJackIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9109E5041CE5221500DF95AC /* Build configuration list for PBXNativeTarget "BlackJackIOS" */;
+			buildPhases = (
+				9109E4EA1CE5221500DF95AC /* Sources */,
+				9109E4EB1CE5221500DF95AC /* Frameworks */,
+				9109E4EC1CE5221500DF95AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackJackIOS;
+			productName = BlackJackIOS;
+			productReference = 9109E4EE1CE5221500DF95AC /* BlackJackIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9109E4E61CE5221500DF95AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Fares - Camille";
+				TargetAttributes = {
+					9109E4ED1CE5221500DF95AC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9109E4E91CE5221500DF95AC /* Build configuration list for PBXProject "BlackJackIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9109E4E51CE5221500DF95AC;
+			productRefGroup = 9109E4EF1CE5221500DF95AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9109E4ED1CE5221500DF95AC /* BlackJackIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9109E4EC1CE5221500DF95AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9109E4F41CE5221500DF95AC /* GameScene.sks in Resources */,
+				9109E5001CE5221500DF95AC /* LaunchScreen.storyboard in Resources */,
+				9109E4FD1CE5221500DF95AC /* Assets.xcassets in Resources */,
+				9109E4FB1CE5221500DF95AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9109E4EA1CE5221500DF95AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9109E4F61CE5221500DF95AC /* GameScene.swift in Sources */,
+				9109E4F81CE5221500DF95AC /* GameViewController.swift in Sources */,
+				9109E4F21CE5221500DF95AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9109E4F91CE5221500DF95AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9109E4FA1CE5221500DF95AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9109E4FE1CE5221500DF95AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9109E4FF1CE5221500DF95AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9109E5021CE5221500DF95AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9109E5031CE5221500DF95AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9109E5051CE5221500DF95AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlackJackIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = projet.BlackJackIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9109E5061CE5221500DF95AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlackJackIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = projet.BlackJackIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9109E4E91CE5221500DF95AC /* Build configuration list for PBXProject "BlackJackIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9109E5021CE5221500DF95AC /* Debug */,
+				9109E5031CE5221500DF95AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9109E5041CE5221500DF95AC /* Build configuration list for PBXNativeTarget "BlackJackIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9109E5051CE5221500DF95AC /* Debug */,
+				9109E5061CE5221500DF95AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9109E4E61CE5221500DF95AC /* Project object */;
+}
