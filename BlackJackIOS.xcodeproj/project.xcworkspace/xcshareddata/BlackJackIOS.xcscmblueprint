@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EC657F2ED36DDC7D562AD4E9DF3B37FC1CBEA33D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EC657F2ED36DDC7D562AD4E9DF3B37FC1CBEA33D" : 0,
+    "AD912A87370A52827456573DE402D54EC0C31546" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7E4BA5F6-C560-45D7-B70A-B668883A8AF1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EC657F2ED36DDC7D562AD4E9DF3B37FC1CBEA33D" : "BlackJackIOS\/",
+    "AD912A87370A52827456573DE402D54EC0C31546" : "BlackJack\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BlackJackIOS",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BlackJackIOS.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ColvrayC\/IBlackJack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD912A87370A52827456573DE402D54EC0C31546"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ColvrayC\/BlackJackIOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC657F2ED36DDC7D562AD4E9DF3B37FC1CBEA33D"
+    }
+  ]
+}
