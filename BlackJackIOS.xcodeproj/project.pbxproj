@@ -26,6 +26,11 @@
 		9109E4FC1CE5221500DF95AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9109E4FF1CE5221500DF95AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9109E5011CE5221500DF95AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9109E5071CE5238500DF95AC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../../BlackJack/BlackJack/Player.swift; sourceTree = "<group>"; };
+		9109E5081CE5238500DF95AC /* Croupier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Croupier.swift; path = ../../BlackJack/BlackJack/Croupier.swift; sourceTree = "<group>"; };
+		9109E5091CE5238500DF95AC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = ../../BlackJack/BlackJack/Card.swift; sourceTree = "<group>"; };
+		9109E50A1CE5238500DF95AC /* Sabot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Sabot.swift; path = ../../BlackJack/BlackJack/Sabot.swift; sourceTree = "<group>"; };
+		9109E50B1CE5238500DF95AC /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataModels.swift; path = ../../BlackJack/BlackJack/DataModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,11 @@
 				9109E4FC1CE5221500DF95AC /* Assets.xcassets */,
 				9109E4FE1CE5221500DF95AC /* LaunchScreen.storyboard */,
 				9109E5011CE5221500DF95AC /* Info.plist */,
+				9109E5071CE5238500DF95AC /* Player.swift */,
+				9109E5081CE5238500DF95AC /* Croupier.swift */,
+				9109E5091CE5238500DF95AC /* Card.swift */,
+				9109E50A1CE5238500DF95AC /* Sabot.swift */,
+				9109E50B1CE5238500DF95AC /* DataModels.swift */,
 			);
 			path = BlackJackIOS;
 			sourceTree = "<group>";
