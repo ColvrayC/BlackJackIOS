@@ -17,25 +17,44 @@ class Croupier {
     }
     
     var croupierCards = Array<Card>()
+    var allCards = Array<Card>()
     var burnedCards = Array<Card>()
     
-    //Le croupier mélangeles cartes
-    func mixedCards()
+    func getCardsAndMixed()
     {
-        self.oSabot.mixedCards()
+        //Charge les cartes
+        self.allCards = DataModels().LoadCards()
+        //Mélange
+        self.allCards.shuffle()
     }
     
-    //Le croupier coupe le tas en enlevant le contenu entre la carte bleu et rouge
-    func cutCards()
+    //Après que le joueur est passer la carte bleu dans le tas , le croupier
+    //coupe le tas de manière a retrouver la carte bleu au dessus
+    func putTopCardToBottom(indexBlueCard:Int)
     {
-        
+        var cardToDeplace = Array<Card>()
+        //récupère de le haut du tas jusqu'a la carte bleu, pour le replacer en dessous
+        for i in 0...indexBlueCard-1
+        {
+            cardToDeplace.append(self.allCards.removeAtIndex(i))
+        }
+
+        //ajoute les cartes du haut en dessous du tas
+        self.allCards.appendContentsOf(cardToDeplace)
+
     }
     
-    //Le croupier place sa carte Rouge
-    func redCards()
+    func putRedCard()
     {
+        //Random entre 0 et 100, a partir de l'index +20 pour la marge entre la carte bleu et rouge
+        let rdm:Int = Int(arc4random_uniform(100))+20
         
+        self.allCards.insert(Card(_code:"red",_type:"",_categorie:"",_burn:false), atIndex: rdm)
     }
+    
+    func putCardsinSabot(){
+        oSabot.Cards = self.allCards
+    }    
     
     //Le croupier brule une carte
     func burnCard(card:Card)
@@ -51,6 +70,16 @@ class Croupier {
             burnedCards.append(c)
         }
     }
+    
+    //Supprime les 5 première cartes et le place dans le tas brulé
+    func burnedFirstFiveCards()
+    {
+        for _ in 1...4
+        {
+         burnedCards.append(allCards.removeFirst())
+        }
+    }
+
     
     //Le croupier distribue les cartes aux joueurs
     func distributeCardToPlayers()->Card
@@ -84,3 +113,13 @@ class Croupier {
         return false
     }
 }
+//Extension Array pour mélanger de manière aléatoire
+extension Array {
+    mutating func shuffle() {
+        for i in 0 ..< (count - 1) {
+            let j = Int(arc4random_uniform(UInt32(count - i))) + i
+            swap(&self[i], &self[j])
+        }
+    }
+}
+

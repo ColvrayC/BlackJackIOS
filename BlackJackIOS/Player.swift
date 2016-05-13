@@ -28,6 +28,15 @@ class Player {
     var playerCards = Array<Card>()
     var playerCardsSplited = Array<Card>()
     
+    func canBet(_mise:Int)->Bool
+    {
+        if(_mise <= self.totalMoney)
+        {
+            return true
+        }
+        return false
+    }
+    
     //Renvoie Vrai si le joueur peut miser
     func bet(_mise:Int)
     {
@@ -46,9 +55,14 @@ class Player {
     }
     
     // Coupe les cartes au début de la partie
-    func cutCard()
+    func putBlueCard(oCroupier:Croupier)->Int
     {
+        //Random entre 0 et 312
+        let rdm:Int = Int(arc4random_uniform(312))
+
+        oCroupier.allCards.insert(Card(_code:"blue",_type:"",_categorie:"",_burn:false), atIndex: rdm)
         
+        return rdm;
     }
     
     //Recois une carte a son jeu
@@ -118,7 +132,8 @@ class Player {
     //Vérifie si le joueur  BlackJack
     func hasBlackJack()->Bool
     {
-        if(globalFunction().calcPoints(playerCards)==21)
+        //Si le joueur a 21 et a 2 cartes
+        if(globalFunction().calcPoints(playerCards)==21 && playerCards.count==2)
         {
             return true
         }
@@ -173,5 +188,53 @@ class Player {
     {
         self.endToPlayed = true
     }
+    
+    //Si le joueur a un meilleur jeu que le croupier
+    //true = gagné
+    //nil = Egalité
+    //false = Perdu
+    func hasWin(oCroupier:Croupier)->Bool?
+    {
+        let playerPoints = globalFunction().calcPoints(playerCards)
+        let croupierPoints = globalFunction().calcPoints(oCroupier.croupierCards)
+        
+        //Si le jouer a un meilleur jeu que le croupier il gagne
+        if(playerPoints > croupierPoints)
+        {
+            return true
+        }
+        //Si le joueur a un moins bon jeu que le croupier
+        else if(playerPoints < croupierPoints)
+        {
+            return false
+        }
+        // Si le joueur et le croupier on le même jeu
+        else if(playerPoints == croupierPoints)
+        {
+            return nil
+        }
+        return false
+    }
+    
+    //Le joueur gagne le double de sa mise
+    func win()
+    {
+        self.mise *= 2
+        UpdateTotalMoney()
+    }
+    
+    //Le joeur perd sa mise
+    func lose()
+    {
+        self.mise = 0
+        UpdateTotalMoney()
+    }
+    
+    func draw()
+    {
+        UpdateTotalMoney()
+    }
+    
+    
     
 }
