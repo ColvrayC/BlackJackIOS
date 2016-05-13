@@ -19,6 +19,7 @@
 		9109E5111CE524F400DF95AC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109E5101CE524F400DF95AC /* Card.swift */; };
 		9109E5131CE5250700DF95AC /* Croupier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109E5121CE5250700DF95AC /* Croupier.swift */; };
 		9109E5151CE5257E00DF95AC /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109E5141CE5257E00DF95AC /* DataModels.swift */; };
+		91416F581CE5CD1F0025AE1C /* globalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91416F571CE5CD1F0025AE1C /* globalFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9109E5101CE524F400DF95AC /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		9109E5121CE5250700DF95AC /* Croupier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Croupier.swift; sourceTree = "<group>"; };
 		9109E5141CE5257E00DF95AC /* DataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		91416F571CE5CD1F0025AE1C /* globalFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globalFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9109E5101CE524F400DF95AC /* Card.swift */,
 				9109E5121CE5250700DF95AC /* Croupier.swift */,
 				9109E5141CE5257E00DF95AC /* DataModels.swift */,
+				91416F571CE5CD1F0025AE1C /* globalFunction.swift */,
 			);
 			path = BlackJackIOS;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				9109E5151CE5257E00DF95AC /* DataModels.swift in Sources */,
 				9109E5111CE524F400DF95AC /* Card.swift in Sources */,
 				9109E4F61CE5221500DF95AC /* GameScene.swift in Sources */,
+				91416F581CE5CD1F0025AE1C /* globalFunction.swift in Sources */,
 				9109E5131CE5250700DF95AC /* Croupier.swift in Sources */,
 				9109E50F1CE524B700DF95AC /* Sabot.swift in Sources */,
 				9109E4F81CE5221500DF95AC /* GameViewController.swift in Sources */,
@@ -316,6 +320,7 @@
 				9109E5061CE5221500DF95AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
