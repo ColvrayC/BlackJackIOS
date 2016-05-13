@@ -15,13 +15,14 @@ class Croupier {
     {
         oSabot = Sabot()
     }
-    var CroupierCards = Array<Card>()
     
+    var croupierCards = Array<Card>()
+    var burnedCards = Array<Card>()
     
     //Le croupier mélangeles cartes
     func mixedCards()
     {
-        oSabot.mixedCards()
+        self.oSabot.mixedCards()
     }
     
     //Le croupier coupe le tas en enlevant le contenu entre la carte bleu et rouge
@@ -36,28 +37,44 @@ class Croupier {
         
     }
     
-    //Le croupier brule une/des cartes ?
-    func burnedCards()
+    //Le croupier brule une carte
+    func burnCard(card:Card)
     {
-        
+        burnedCards.append(card)
+    }
+    
+    //Le croupier brule des cartes
+    func burnCards(cards:Array<Card>)
+    {
+        for c in cards
+        {
+            burnedCards.append(c)
+        }
     }
     
     //Le croupier distribue les cartes aux joueurs
     func distributeCardToPlayers()->Card
     {
-        return oSabot.giveCard()
+        let card = self.oSabot.giveCard()
+        
+        //Ajoute la carte au tas de cartes brulées
+        self.burnCard(card)
+        
+        return card
     }
     
     //Le croupier se distribue sa première carte
     func distributeOneCardItSelf()
     {
-        CroupierCards.append(oSabot.giveCard())
+        let card = self.oSabot.giveCard()
+        self.burnCard(card)
+        croupierCards.append(card)
     }
     
     //Return vrai si le croupir a un AS
     func hasAS()->Bool
     {
-        for Card in CroupierCards
+        for Card in self.croupierCards
         {
             if(Card.code=="1")
             {

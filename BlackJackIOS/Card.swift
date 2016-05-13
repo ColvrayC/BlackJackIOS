@@ -29,4 +29,21 @@ class Card {
         self.burn = true
     }
     
+    func hasImageCard()->Bool
+    {
+        if(code == "V" || code == "D" || code == "R")
+        {
+            return true
+        }
+        return false
+    }
+    
+    func hasAS()->Bool
+    {
+        if(code == "1")
+        {
+            return true
+        }
+        return false
+    }
 }
