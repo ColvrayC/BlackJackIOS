@@ -20,6 +20,8 @@
 		9109E5131CE5250700DF95AC /* Croupier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109E5121CE5250700DF95AC /* Croupier.swift */; };
 		9109E5151CE5257E00DF95AC /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9109E5141CE5257E00DF95AC /* DataModels.swift */; };
 		91416F581CE5CD1F0025AE1C /* globalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91416F571CE5CD1F0025AE1C /* globalFunction.swift */; };
+		F1CA83031CE8C9D0002CD065 /* images 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1CA83021CE8C9D0002CD065 /* images 2.jpg */; };
+		F1CA83051CE8E1B7002CD065 /* dosdecarte.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1CA83041CE8E1B7002CD065 /* dosdecarte.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		9109E5121CE5250700DF95AC /* Croupier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Croupier.swift; sourceTree = "<group>"; };
 		9109E5141CE5257E00DF95AC /* DataModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		91416F571CE5CD1F0025AE1C /* globalFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globalFunction.swift; sourceTree = "<group>"; };
+		F1CA83021CE8C9D0002CD065 /* images 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images 2.jpg"; path = "../../Desktop/images 2.jpg"; sourceTree = "<group>"; };
+		F1CA83041CE8E1B7002CD065 /* dosdecarte.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dosdecarte.jpg; path = ../../Desktop/dosdecarte.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				9109E4F01CE5221500DF95AC /* BlackJackIOS */,
 				9109E4EF1CE5221500DF95AC /* Products */,
+				F1CA83021CE8C9D0002CD065 /* images 2.jpg */,
+				F1CA83041CE8E1B7002CD065 /* dosdecarte.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,8 +154,10 @@
 			files = (
 				9109E4F41CE5221500DF95AC /* GameScene.sks in Resources */,
 				9109E5001CE5221500DF95AC /* LaunchScreen.storyboard in Resources */,
+				F1CA83031CE8C9D0002CD065 /* images 2.jpg in Resources */,
 				9109E4FD1CE5221500DF95AC /* Assets.xcassets in Resources */,
 				9109E4FB1CE5221500DF95AC /* Main.storyboard in Resources */,
+				F1CA83051CE8E1B7002CD065 /* dosdecarte.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlackJackIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = projet.BlackJackIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlackJackIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = projet.BlackJackIOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
